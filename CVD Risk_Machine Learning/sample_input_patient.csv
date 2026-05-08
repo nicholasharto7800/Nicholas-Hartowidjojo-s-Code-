@@ -1,0 +1,2 @@
+apnea_events_per_hour,avg_oxygen_saturation,min_oxygen_saturation,sleep_efficiency_pct,wake_after_sleep_onset_min,bmi,waist_circumference_cm,systolic_bp,diastolic_bp,cholesterol,hdl_cholesterol,self_reported_hypertension,history_of_diabetes,taking_bp_medication,age_at_baseline,sex,race,smoking_status
+20.5,92.8,83.0,77.5,75.0,31.2,108.0,142.0,85.0,228.0,38.0,1.0,0.0,1.0,68,1,1,1.0

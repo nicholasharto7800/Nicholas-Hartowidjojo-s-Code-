@@ -1,0 +1,52 @@
+{
+  "TOP_5_SLEEP": [
+    "apnea_events_per_hour",
+    "min_oxygen_saturation",
+    "sleep_efficiency_pct",
+    "avg_oxygen_saturation",
+    "wake_after_sleep_onset_min"
+  ],
+  "TOP_5_HEALTH": [
+    "age_at_baseline",
+    "sex",
+    "taking_bp_medication",
+    "smoking_status",
+    "hdl_cholesterol"
+  ],
+  "sleep_shap_values": {
+    "apnea_events_per_hour": 0.0886,
+    "min_oxygen_saturation": 0.0309,
+    "sleep_efficiency_pct": 0.0189,
+    "avg_oxygen_saturation": 0.0,
+    "wake_after_sleep_onset_min": 0.0
+  },
+  "health_shap_values": {
+    "age_at_baseline": 0.7336,
+    "sex": 0.4002,
+    "taking_bp_medication": 0.3408,
+    "smoking_status": 0.1689,
+    "hdl_cholesterol": 0.1531
+  },
+  "sleep_pct": 5.6,
+  "health_pct": 94.4,
+  "all_features_ranked": {
+    "age_at_baseline": 0.7336,
+    "sex": 0.4002,
+    "taking_bp_medication": 0.3408,
+    "smoking_status": 0.1689,
+    "hdl_cholesterol": 0.1531,
+    "systolic_bp": 0.1463,
+    "diastolic_bp": 0.1385,
+    "apnea_events_per_hour": 0.0886,
+    "waist_circumference_cm": 0.0669,
+    "history_of_diabetes": 0.0597,
+    "self_reported_hypertension": 0.0521,
+    "race": 0.0428,
+    "min_oxygen_saturation": 0.0309,
+    "cholesterol": 0.0202,
+    "bmi": 0.02,
+    "sleep_efficiency_pct": 0.0189,
+    "avg_oxygen_saturation": 0.0,
+    "wake_after_sleep_onset_min": 0.0
+  }
+}

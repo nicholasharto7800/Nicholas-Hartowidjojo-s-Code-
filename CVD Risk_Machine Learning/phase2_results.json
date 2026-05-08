@@ -1,0 +1,46 @@
+{
+  "Logistic Regression": {
+    "name": "Logistic Regression",
+    "best_auc_cv": 0.7914,
+    "test_auc": 0.8018,
+    "recall": 0.7071,
+    "f1": 0.5624,
+    "threshold": 0.55,
+    "best_params": {
+      "solver": "liblinear",
+      "penalty": "l1",
+      "C": 1
+    },
+    "train_time_s": 0.8
+  },
+  "Random Forest": {
+    "name": "Random Forest",
+    "best_auc_cv": 0.7838,
+    "test_auc": 0.7905,
+    "recall": 0.7071,
+    "f1": 0.5391,
+    "threshold": 0.51,
+    "best_params": {
+      "n_estimators": 300,
+      "min_samples_split": 5,
+      "max_depth": 5
+    },
+    "train_time_s": 13.3
+  },
+  "Gradient Boosting": {
+    "name": "Gradient Boosting",
+    "best_auc_cv": 0.782,
+    "test_auc": 0.7893,
+    "recall": 0.7113,
+    "f1": 0.5304,
+    "threshold": 0.51,
+    "best_params": {
+      "subsample": 0.7,
+      "n_estimators": 500,
+      "min_samples_split": 5,
+      "max_depth": 3,
+      "learning_rate": 0.01
+    },
+    "train_time_s": 79.5
+  }
+}
